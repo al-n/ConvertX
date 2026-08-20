@@ -8,7 +8,7 @@ runCommonTests(convert);
 
 test("advertises DjVu to PDF and TIFF conversions", () => {
   expect(properties).toEqual({
-    from: { document: ["djvu"] },
+    from: { document: ["djvu", "djv"] },
     to: { document: ["pdf", "tiff"] },
   });
 });

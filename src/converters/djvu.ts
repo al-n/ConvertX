@@ -3,7 +3,7 @@ import type { ExecFileFn } from "./types";
 
 export const properties = {
   from: {
-    document: ["djvu"],
+    document: ["djvu", "djv"],
   },
   to: {
     document: ["pdf", "tiff"],
